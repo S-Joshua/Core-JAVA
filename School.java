@@ -1,7 +1,7 @@
 public interface information
   {
     void details();
-	void address();
+    void address();
   }
   
 public class Student implements information
@@ -10,8 +10,8 @@ public class Student implements information
 	   {
 	     System.out.println("Student details");
 	   }
-	public void addresds()
-       {
+	public void address()
+           {
 	    System.out.println("Student address");
 	   }	
     } 
@@ -22,8 +22,8 @@ public class Teacher implements information
 	   {
 	     System.out.println("Teacher details");
 	   }
-	public void addresds()
-       {
+	public void address()
+           {
 	    System.out.println("Teacher address");
 	   }	
     } 
@@ -33,13 +33,13 @@ public class School
     public static void main(String[] args)
 	   {
 	     Student s1=new Student();
-		    s1.details();
-			s1.address();
+	       s1.details();
+	       s1.address();
 		 
-         Teacher t1=new Teacher();
-            t1.details();
-            t1.address();
-        }
+             Teacher t1=new Teacher();
+               t1.details();
+               t1.address();
+          }
    }		
 	
 		
